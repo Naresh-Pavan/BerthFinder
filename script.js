@@ -11,8 +11,8 @@ function berth_type(seat)
         else if(seat % 8 == 7)
         alert(seat +" is side lower berth");
         else
-        alert(seat + 'is side upper berth');
+        alert(seat +' is side upper berth');
     else
-    alert(seat +'invalid seat number');
+    alert(seat +' invalid seat number');
 }
 berth_type(seat);
